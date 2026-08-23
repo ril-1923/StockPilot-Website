@@ -1,0 +1,19 @@
+/* Base reset — kept minimal so it doesn't fight with App.css's layout
+   or CSS variables (--bg, --text, --border, etc. are defined in App.css). */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
